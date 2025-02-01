@@ -29,7 +29,7 @@
 <body>
     <header class="font_sora bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
         <!-- Nav section -->
-        <nav class="px-3 flex justify-between items-center pt-3 pb-3 lg:pt-6 lg:pb-6 max-w-screen-2xl mx-auto">
+        <nav class="px-3 flex justify-between items-center pt-3 pb-3 lg:pt-6 lg:pb-6 max-w-screen-2xl mx-auto border-b border-[#179800] lg:border-none">
             <!-- nav logo -->
             <div>
                 <img class="hidden lg:block" src="Images/logo-header.png" alt="">
@@ -45,16 +45,16 @@
             <div class="flex justify-between items-center space-x-6">
                 <i class="hidden lg:block text-2xl fa-solid fa-magnifying-glass"></i>
                 <i class="hidden lg:block text-2xl fa-solid fa-cart-shopping"></i>
-                <button class="hidden lg:block px-8 py-2 text-xl border-2 border-[#179800] rounded-lg">Login</button>
-                <button class="hidden lg:block px-8 py-2 text-xl border-2 border-[#179800] bg-[#179800] rounded-lg text-white">Register</button>
+                <button class="hidden lg:block px-8 py-2 text-xl border-2 border-[#179800] rounded-lg transition duration-1000 ease-in-out hover:scale-105">Login</button>
+                <button class="hidden lg:block px-8 py-2 text-xl border-2 border-[#179800] bg-[#179800] rounded-lg text-white transition duration-1000 ease-in-out hover:scale-105">Register</button>
                 <i class="lg:hidden text-3xl fa-solid fa-bars"></i>
             </div>
         </nav>
         <!-- Banner Section -->
         <section class="max-w-screen-2xl mx-auto mt-8 lg:mt-24 text-center">
-            <h1 class="text-4xl lg:text-6xl font-semibold">Freshness <span class="text-[#179800]">You Can <br> Count</span> On, Prices You’ll Love!</h1>
-            <p class="lg:text-xl lg:w-2/4 mx-auto pl-3 pr-3 mt-4 mb-4 lg:mt-8 lg:mb-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-            <img class="mx-auto" src="Images/hero-vegetables.png" alt="">
+            <h1 class="text-4xl lg:text-6xl font-semibold animate-pulse">Freshness <span class="text-[#179800]">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+            <p class="lg:text-xl lg:w-2/4 mx-auto pl-3 pr-3 mt-4 mb-4 lg:mt-8 lg:mb-8 text-gray-500">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img class="mx-auto animate-[spin_1s_1_ease-in-out]" src="Images/hero-vegetables.png" alt="">
         </section> 
     </header>
     <main>
@@ -64,7 +64,7 @@
             <!-- service card container -->
             <div class="lg:flex gap-7">
                 <!-- card-1 -->
-                <div class="bg-[#EFEBE3] p-8 rounded-2xl space-y-6 mb-4">
+                <div class="bg-[#EFEBE3] p-8 rounded-2xl space-y-6 mb-4 transition duration-1000 ease-in-out hover:scale-105">
                     <!-- card image container -->
                     <div class="bg-white rounded-full h-32 w-32 lg:h-40 lg:w-40 mx-auto flex items-center">
                         <img class="mx-auto" src="Images/service.png" alt="">
@@ -76,7 +76,7 @@
                     </div> 
                 </div> 
                 <!-- card-2 -->
-                <div class="bg-[#EFEBE3] p-8 rounded-2xl space-y-6 mb-4">
+                <div class="bg-[#EFEBE3] p-8 rounded-2xl space-y-6 mb-4 transition duration-1000 ease-in-out hover:scale-105">
                     <!-- card image container -->
                     <div class="bg-white rounded-full h-32 w-32 lg:h-40 lg:w-40 mx-auto flex items-center">
                         <img class="mx-auto" src="Images/delivery.png" alt="">
@@ -88,7 +88,7 @@
                     </div> 
                 </div>
                 <!--card-3  -->
-                <div class="bg-[#EFEBE3] p-8 rounded-2xl space-y-6 mb-4">
+                <div class="bg-[#EFEBE3] p-8 rounded-2xl space-y-6 mb-4 transition duration-1000 ease-in-out hover:scale-105">
                     <!-- card image container -->
                     <div class="bg-white rounded-full h-32 w-32 lg:h-40 lg:w-40 mx-auto flex items-center">
                         <img class="mx-auto" src="Images/healthy.png" alt="">
@@ -114,11 +114,11 @@
                         <div class="lg:absolute inset-0 pl-4 lg:pl-8 pt-4 lg:pt-12 space-y-4 bg-[url('./Images/vegetable-offer.png')] bg-no-repeat bg-right-bottom pb-48">
                             <h2 class="text-white text-3xl font-bold">30% off</h2>
                             <p class="text-gray-600">discover a world of treats, toys, and <br> essentials handpicked for</p>
-                            <button class="px-8 py-2 text-xl bg-white rounded-lg shadow-md">Buy now</button>    
+                            <button class="px-8 py-2 text-xl bg-white rounded-lg shadow-md transition duration-1000 ease-in-out hover:scale-105">Buy now</button>    
                         </div>
                     </div>
                     <!-- Onion Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/onion.png" alt="">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <!-- Tomato Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/tomato.png" alt="">
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <!-- Potato Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/potato.png" alt="">
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                     <!-- Onion Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/onion.png" alt="">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <!-- Tomato Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/tomato.png" alt="">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <!-- Potato Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/potato.png" alt="">
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                     <!-- Onion Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/onion.png" alt="">
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                     <!-- Tomato Card -->
-                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="bg-white pl-2 py-2 lg:pl-3 lg:py-3 flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/tomato.png" alt="">
@@ -254,7 +254,7 @@
                         </div>
                     </div>
                     <!-- Potato Card -->
-                    <div class="hidden lg:block bg-white pl-2 py-2 lg:pl-3 lg:py-3 lg:flex gap-1 lg:gap-2 items-center rounded-lg">
+                    <div class="hidden lg:block bg-white pl-2 py-2 lg:pl-3 lg:py-3 lg:flex gap-1 lg:gap-2 items-center rounded-lg cursor-pointer">
                         <!--card image container  -->
                         <div class="bg-[#EFEBE3] w-20 h-20 flex items-center justify-center rounded-lg">
                             <img src="Images/potato.png" alt="">
@@ -380,7 +380,7 @@
                             <h2 class="text-2xl lg:text-4xl font-semibold lg:font-medium text-[#179800] lg:text-black">Get Grocery News!</h2>
                             <p class="text-base lg:text-xl text-gray-500">Exclusive training tips, ticks, product deals and more.</p>
                             <input class="rounded-lg py-3 pl-4 pr-36 lg:py-5 lg:pl-5 lg:pr-60 lg:text-xl" type="email" name="email" id="" placeholder="Enter email...">
-                            <button class="block mx-auto lg:mx-0 px-8 py-2 text-xl border-2 border-[#179800] bg-[#179800] rounded-lg text-white">Subscribe</button>
+                            <button class="block mx-auto lg:mx-0 px-8 py-2 text-xl border-2 border-[#179800] bg-[#179800] rounded-lg text-white transition duration-1000 ease-in-out hover:scale-105">Subscribe</button>
                         </div> 
                     </div>
                 </div>
